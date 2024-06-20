@@ -1,4 +1,4 @@
-import{h as r,j as o}from"./styled-components.browser.esm-CK3y3u_d.js";import"./index-CEThVCg_.js";const a=r`
+import{j as o}from"./jsx-runtime-QvZ8i92b.js";import{h as r}from"./styled-components.browser.esm-DjG-FxS6.js";import"./index-uubelm5h.js";const a=r`
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -81,4 +81,4 @@ import{h as r,j as o}from"./styled-components.browser.esm-CK3y3u_d.js";import"./
     background-color: var(--color-primary);
     border: 2px solid var(--visual-ui1);
   }
-`,i={decorators:[e=>o.jsxs(o.Fragment,{children:[o.jsx(a,{}),o.jsx(e,{})]})]};export{i as default};
+`,n={decorators:[e=>o.jsxs(o.Fragment,{children:[o.jsx(a,{}),o.jsx(e,{})]})]};export{n as default};
