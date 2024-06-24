@@ -23,7 +23,7 @@ const Link = styled.a`
   }
 `;
 
-function HorizontalNavigation() {
+function HorizontalNavMenu() {
   return (
     <List>
       <ListItem><Link href="/home">Home</Link></ListItem>
@@ -33,4 +33,4 @@ function HorizontalNavigation() {
   );
 }
 
-export default HorizontalNavigation;
+export default HorizontalNavMenu;
