@@ -20,7 +20,7 @@ const Link = styled.a`
   }
 `;
 
-function VerticalNavigation() {
+function VerticalNavMenu() {
   return (
     <List>
       <ListItem><Link href="/home">Home</Link></ListItem>
@@ -30,5 +30,5 @@ function VerticalNavigation() {
   );
 }
 
-export default VerticalNavigation;
+export default VerticalNavMenu;
 
