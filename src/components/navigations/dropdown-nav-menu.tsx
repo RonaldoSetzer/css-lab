@@ -41,7 +41,7 @@ const Link = styled.a`
   text-decoration: none;
 `;
 
-function DropdownNavigation() {
+function DropdownNavMenu() {
   return (
     <List>
       <ListItem><Link href="/home">Home</Link></ListItem>
@@ -57,6 +57,6 @@ function DropdownNavigation() {
   );
 }
 
-export default DropdownNavigation;
+export default DropdownNavMenu;
 
 
