@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './hover-color-button';
 
 const meta = {
-  title: 'Button/ Hover Color Button',
+  title: 'Buttons/ Beginner/ Hover Color Button',
   component: Button,
   parameters: {
     layout: 'centered',

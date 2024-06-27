@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './press-effect-button';
 
 const meta = {
-  title: 'Button/ Press Effect Button',
+  title: 'Buttons/ Beginner/ Press Effect Button',
   component: Button,
   parameters: {
     layout: 'centered',
@@ -21,5 +21,4 @@ export const Primary: Story = {
     children: 'Press Effect Button',
   },
 };
-
 
