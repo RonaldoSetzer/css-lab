@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './confirm-button';
 
 const meta = {
-  title: 'Button/ Confirm Button',
+  title: 'Buttons/ Advanced/ Confirm Button',
   component: Button,
   parameters: {
     layout: 'centered',
@@ -21,7 +21,3 @@ export const Primary: Story = {
     children: 'Confirm Button',
   },
 };
-
-
-
-

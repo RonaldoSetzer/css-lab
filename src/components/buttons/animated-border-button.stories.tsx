@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './animated-border-button';
 
 const meta = {
-  title: 'Button/ Animated Border Button',
+  title: 'Buttons/ Advanced/ Animated Border Button',
   component: Button,
   parameters: {
     layout: 'centered',

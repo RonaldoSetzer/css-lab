@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './pulse-border-effect-button';
 
 const meta = {
-  title: 'Button/ Pulse Border Effect Button',
+  title: 'Buttons/ Advanced/ Pulse Border Effect Button',
   component: Button,
   parameters: {
     layout: 'centered',
@@ -21,6 +21,4 @@ export const Primary: Story = {
     children: 'Pulse Border Effect Button',
   },
 };
-
-
 

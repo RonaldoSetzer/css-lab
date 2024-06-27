@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './animated-text-button';
 
 const meta = {
-  title: 'Button/ Animated Text Button',
+  title: 'Buttons/ Advanced/ Animated Text Button',
   component: Button,
   parameters: {
     layout: 'centered',
@@ -21,6 +21,4 @@ export const Primary: Story = {
     children: 'Animated Text Button',
   },
 };
-
-
 

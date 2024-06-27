@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './interactive-button';
 
 const meta = {
-  title: 'Button/ Interactive Button',
+  title: 'Buttons/ Advanced/ Interactive Button',
   component: Button,
   parameters: {
     layout: 'centered',
@@ -21,5 +21,4 @@ export const Primary: Story = {
     children: 'Interactive Button',
   },
 };
-
 
