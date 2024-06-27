@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './shadow-effect-button';
 
 const meta = {
-  title: 'Button/ Shadow Effect Button',
+  title: 'Buttons/ Intermediate/ Shadow Effect Button',
   component: Button,
   parameters: {
     layout: 'centered',

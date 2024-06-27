@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './press-effect-3d-button';
 
 const meta = {
-  title: 'Button/ Press Effect 3D Button',
+  title: 'Buttons/ Intermediate/ Press Effect 3D Button',
   component: Button,
   parameters: {
     layout: 'centered',
@@ -21,7 +21,4 @@ export const Primary: Story = {
     children: 'Pulse Border Effect Button',
   },
 };
-
-
-
 

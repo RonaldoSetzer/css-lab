@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './gradient-button';
 
 const meta = {
-  title: 'Button/ Gradient Button',
+  title: 'Buttons/ Intermediate/ Gradient Button',
   component: Button,
   parameters: {
     layout: 'centered',
@@ -21,4 +21,3 @@ export const Primary: Story = {
     children: 'Gradient Button',
   },
 };
-
