@@ -1,15 +1,7 @@
 import styled from "styled-components";
+import { LinkButton } from "../ui";
 
-const Link = styled.a`
-  display: inline-block;
-  padding: 12px 24px;
-  color: var(--main-bg-color);
-  background-color: var(--color-primary);
-  border: none;
-  border-radius: 25px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
+const Link = styled(LinkButton)`
   transition: background-color 0.3s;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.4);
   animation: pulse 2s infinite;
@@ -36,7 +28,4 @@ function PulseBorderEffectButton({ children }: PulseBorderEffectButtonProps) {
 }
 
 export default PulseBorderEffectButton;
-
-
-
 

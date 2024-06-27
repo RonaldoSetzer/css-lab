@@ -1,17 +1,8 @@
 import styled from "styled-components";
+import { LinkButton } from "../ui";
 
-const Link = styled.a`
-  background-color: var(--color-primary);
-  color: var(--main-bg-color);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-weight: 600;
-  margin: 4px 2px;
+const Link = styled(LinkButton)`
   transition: transform 0.3s;
-  border-radius: 4px;
 
   &:active {
     transform: scale(0.90);
@@ -27,5 +18,4 @@ function PressEffectButton({ children }: PressEffectButtonProps) {
 }
 
 export default PressEffectButton;
-
 

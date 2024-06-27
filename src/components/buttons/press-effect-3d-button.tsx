@@ -1,16 +1,9 @@
 import styled from "styled-components";
+import { LinkButton } from "../ui";
 
-const Link = styled.a`
-
+const Link = styled(LinkButton)`
   position: relative;
-  display: inline-block;
-  padding: 12px 24px;
-  color: var(--main-bg-color);
-  background-color: var(--color-primary);
-  text-transform: uppercase;
-  text-decoration: none;
   border: none;
-  border-radius: 4px;
   box-shadow: 0 6px var(--color-support);
   transition: all 0.3s ease;
 
@@ -29,8 +22,4 @@ function PressEffect3dButton({ children }: PressEffect3dButtonProps) {
 }
 
 export default PressEffect3dButton;
-
-
-
-
 

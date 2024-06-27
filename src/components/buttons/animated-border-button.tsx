@@ -1,16 +1,7 @@
 import styled from "styled-components";
+import { LinkButton } from "../ui";
 
-const Link = styled.a`
-  background-color: var(--color-primary);
-  color: var(--main-bg-color);
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-weight: 600;
-  margin: 4px 2px;
-  border-radius: 4px;
+const Link = styled(LinkButton)`
   position: relative;
   transition: all 0.3s ease;
   overflow: hidden;
@@ -20,9 +11,10 @@ const Link = styled.a`
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid var(--color-secondary);
+    width: 97%;
+    height: 80%;
+    border: 4px solid var(--color-secondary);
+    border-radius: 25px;
     transform: scaleX(0);
     transition: all 0.3s ease;
   };
@@ -41,6 +33,4 @@ function AnimatedBorderButton({ children }: AnimatedBorderButtonProps) {
 }
 
 export default AnimatedBorderButton;
-
-
 

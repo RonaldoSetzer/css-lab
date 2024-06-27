@@ -1,16 +1,7 @@
 import styled from "styled-components";
+import { LinkButton } from "../ui";
 
-const Link = styled.a`
-  background-color: var(--color-primary);
-  color: var(--main-bg-color);
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  font-weight: 600;
-  margin: 4px 2px;
-  border-radius: 4px;
+const Link = styled(LinkButton)`
   position: relative;
   transition: all 0.3s ease;
   overflow: hidden;
@@ -45,7 +36,4 @@ function InteractiveButton({ children }: InteractiveButtonProps) {
 }
 
 export default InteractiveButton;
-
-
-
 

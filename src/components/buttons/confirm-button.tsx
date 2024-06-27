@@ -1,15 +1,9 @@
 import styled from "styled-components";
+import { LinkButton } from "../ui";
 
-const Link = styled.a`
+const Link = styled(LinkButton)`
   position: relative;
-  display: inline-block;
-  padding: 16px 32px;
-  color: white;
-  background-color: var(--color-primary);
-  border: none;
-  border-radius: 4px;
   overflow: hidden;
-  cursor: pointer;
   transition: background-color 0.3s;
 
   &::after {
@@ -43,5 +37,4 @@ function ConfirmButton({ children }: ConfirmButtonProps) {
   );
 }
 export default ConfirmButton
-
 
