@@ -32,7 +32,7 @@ const CloseButton = styled.span`
   cursor: pointer;
 `;
 
-function BaiscModal() {
+function BasicModal() {
   const [isOpen, setIsOpen] = useState(false);
 
   function handleOpenModal() {
@@ -57,4 +57,4 @@ function BaiscModal() {
     </Container>
   );
 }
-export default BaiscModal;
+export default BasicModal;
