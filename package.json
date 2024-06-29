@@ -1,5 +1,6 @@
 {
-  "name": "css-lab",
+  "name": "frontend-laboratory",
+  "description": "Frontend Laboratory is a collection of isolated examples in CSS, HTML, and React, showcased in a Storybook. It aims to assist developers in learning and experimenting with frontend concepts, serving as a resource for those I mentor.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
