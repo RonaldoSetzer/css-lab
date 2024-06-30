@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Modal from './modal-wtih-form';
 
 const meta = {
-  title: 'Modals/ Intermediate/ Modal With Form',
+  title: 'Modals/ Intermediate/ Modal with Form',
   component: Modal,
   parameters: {
     layout: 'centered',

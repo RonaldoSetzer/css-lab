@@ -59,7 +59,7 @@ function CenteredModal() {
         <Modal>
           <Content>
             <Head>
-              <span>Basic Modal</span>
+              <span>Modal Centered</span>
               <CloseButton onClick={handleCloseModal}>&times;</CloseButton>
             </Head>
             <Body>

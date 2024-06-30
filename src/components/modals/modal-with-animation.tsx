@@ -83,7 +83,7 @@ function ModalWithAnimation(){
         <Modal isClosing={isClosing}>
           <Content>
             <Head>
-              <span>Modal with Image</span>
+              <span>Modal with Animation</span>
               <CloseButton onClick={handleCloseModal}>&times;</CloseButton>
             </Head>
             <Body>

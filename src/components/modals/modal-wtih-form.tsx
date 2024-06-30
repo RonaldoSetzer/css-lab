@@ -75,7 +75,7 @@ function ModalWithForm(){
         <Modal>
           <Content>
             <Head>
-              <span>Modal with Image</span>
+              <span>Modal with Form</span>
               <CloseButton onClick={handleCloseModal}>&times;</CloseButton>
             </Head>
             <Body>

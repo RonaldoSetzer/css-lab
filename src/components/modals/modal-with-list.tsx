@@ -65,7 +65,7 @@ function ModalWithList(){
         <Modal>
           <Content>
             <Head>
-              <span>Modal with Image</span>
+              <span>Modal with List</span>
               <CloseButton onClick={handleCloseModal}>&times;</CloseButton>
             </Head>
             <Body>

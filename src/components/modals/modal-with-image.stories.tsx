@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Modal from './modal-with-image';
 
 const meta = {
-  title: 'Modals/ Beginner/ Modal With Image',
+  title: 'Modals/ Beginner/ Modal with Image',
   component: Modal,
   parameters: {
     layout: 'centered',

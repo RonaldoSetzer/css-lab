@@ -61,7 +61,7 @@ function ModalWithScroll(){
         <Modal>
           <Content>
             <Head>
-              <span>Modal with scroll</span>
+              <span>Modal with Scroll</span>
               <CloseButton onClick={handleCloseModal}>&times;</CloseButton>
             </Head>
             <Body>
